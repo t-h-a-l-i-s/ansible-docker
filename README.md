@@ -5,7 +5,7 @@ Use this image to execute [Ansible](http://docs.ansible.com) playbooks especiall
 To build this image within a proxied environment execute
 
 ```
-$ docker build --build-arg http_proxy=$http_proxy --build-arg https_proxy=https_proxy . 
+$ docker build --build-arg http_proxy=$http_proxy --build-arg https_proxy=$https_proxy . 
 ```
 
 # Usage
