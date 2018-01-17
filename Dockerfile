@@ -8,5 +8,5 @@ RUN apt-get update \
     && apt-get update \
     && apt-get --no-install-recommends -y install ansible
 
-ENTRYPOINT ["ansible"]
+ENTRYPOINT ["ansible-playbook"]
 CMD ["--help"]
